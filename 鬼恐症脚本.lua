@@ -1,12 +1,12 @@
 -只有被开源才能成长经过冷
-local ray field = loadstring(game:http get(' https://Sirius . menu/ray field '))()
+局部光线场= loadstring(游戏:http get(' https://Sirius。菜单/光线场'))()
 
-local Window = ray field:create Window({
+局部窗口=光线场:创建窗口({
 Name = "恐鬼症 1.2.1 [停更]",
 Icon = 0，
 LoadingTitle = "恐鬼症 1.2.1 [停更]",
 LoadingSubtitle = "由西瓜",
-Theme = "深蓝"，
+主题= "深蓝",
 
 DisableRayfieldPrompts = false，
 DisableBuildWarnings = false，
@@ -16,7 +16,7 @@ KeySystem = true，
 Title = "恐鬼症 1.2.1 [停更]",
 字幕= "验证系统",
 注意= "加入群聊看公告获取卡密 企鹅交流群:751910733",
-FileName = "恐怖"，
+文件名= "恐怖",
 SaveKey = true，
 GrabKeyFromSite = false，
 Key = { "龙城" }
@@ -24,8 +24,8 @@ Key = { "龙城" }
 })
 
 --函数
-本地照明=游戏:GetService(“照明”)
-本地玩家= game:GetService("玩家")
+本地照明=游戏:GetService("照明")
+本地玩家= game:GetService(“玩家")
 本地玩家=玩家。本地播放器
 本地工作空间= workspace:GetDescendants()
 本地工作空间1 =游戏:获取服务(“工作空间”)
@@ -37,14 +37,14 @@ Key = { "龙城" }
 
 --初始化诅咒道具透视函数
 本地诅咒= {}
-对于_，ipairs(工作区)中的cursed stanks do
-if cursed卒:IsA(“模型”)和cursed卒。Name == "显灵板"
+对于_，ipairs(工作区)中的被诅咒的恶臭
+如果被诅咒卒:IsA(“模型")和被诅咒的卒. Name == "显灵板"
 被诅咒的=被诅咒的卒
 结束
-if cursed卒:IsA(“模型”)和cursed卒。Name ==“召唤循环”
+如果被诅咒卒:IsA(“模型")和被诅咒的卒. Name == "召唤循环"
 被诅咒的=被诅咒的卒
 结束
-如果被诅咒的棋子:IsA(“工具”)和被诅咒的棋子。Name == "塔罗牌"
+如果被诅咒的棋子:IsA(“工具")和被诅咒的棋子. Name == "塔罗牌"
 被诅咒的=被诅咒的卒
 结束
 结束
